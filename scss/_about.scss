@@ -1,0 +1,217 @@
+/*============================================================================
+	#10. About Style
+==============================================================================*/
+.feature-video {
+  padding: 100px 0;
+  position: relative;
+
+  .row {
+    box-shadow: 5px 5px 5px -5px #333;
+  }
+}
+
+.promo-video {
+  position: relative;
+  display: inline-block;
+  margin: 0;
+  img{
+    margin-bottom: 0 !important;
+  }
+
+  &:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+    background: rgba(31, 31, 31, 0.4);
+  }
+
+}
+
+.promo-video .video-link {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 40%;
+  width: 143px;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.play-btn {
+  position: relative;
+  text-align: center;
+  line-height: 80px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  place-items: center;
+  border: none;
+  box-shadow: none;
+  outline: none;
+  cursor: pointer;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+  border: none;
+}
+
+.about-nfo-box {
+  padding: 30px 20px 30px 0;
+}
+
+
+.sidebar {
+  padding: 120px 35px 20px 0;
+}
+
+
+.sidebar_title {
+  padding: 10px 0 30px;
+  font-family: $basefont;
+  color: $primary-color;
+  font-weight: $semi-bold;
+  border-bottom: 1px solid $black;
+}
+
+.tab-list {
+  li > a {
+    position: relative;
+    padding: 15px 80px 15px 0px;
+    border-bottom: 1px solid $black;
+    font-family: $basefont;
+    font-weight: $semi-bold;
+    color: $black;
+
+    &:after {
+      content: '\f054';
+      font-family: "Font Awesome 5 Free";
+      font-size: 20px;
+      position: absolute;
+      right: 0;
+      top: 20%;
+      font-weight: 900;
+      transition: 0.5s all;
+      color: $black;
+    }
+
+    &.active {
+      color: $primary-color;
+
+      &::after {
+        transform: rotate(90deg);
+        transition: 0.5s all;
+        color: $primary-color;
+      }
+    }
+  }
+}
+
+#about_tab_content {
+  .about-history-img{
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  p {
+    margin-bottom: 30px;
+  }
+
+}
+
+.read-item {
+  position: relative;
+
+  .read-item__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: #254366;
+    color: $white;
+    text-align: center;
+    margin: 40px auto;
+  }
+
+  .read-item__icon i {
+    font-size: 90px;
+    font-weight: 700;
+  }
+
+  .read-item__time {
+    font-size: $font-40;
+    font-family: $basefont-bold;
+  }
+  .title{
+    font-family: $basefont;
+    font-size: $font-34;
+    line-height: 1.5;
+  }
+}
+
+#about_tab_content .director-nfo{
+  img{
+    width: 100%;
+    margin-bottom: 0;
+  }
+  .title-nfo{
+    padding: 30px 0;
+    display: block;
+    font-size:$font-24;
+  }
+  .sub-title{
+    font-family: $basefont;
+    font-weight: $semi-bold;
+  }
+}
+
+.video-caption-content{
+  display: none;
+  position: absolute;
+  z-index: 99999999999;
+  left: 0;
+  right: 0;
+  top: 40%;
+  color: #fff;
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+  .video-link {
+    position: relative;
+    width: 135px;
+    display: flex;
+    margin: 0 auto;
+    background-color: #eb7e32;
+    padding: 5px 15px;
+    align-items: center;
+    color: #fff;
+    text-transform: capitalize;
+  }
+  .play-btn {
+    width: 20px;
+    height: 20px;
+    background:transparent;
+  }
+}
+
+.video-item-popup{
+  &:before{
+    display: none;
+  }
+}
+
+.fancybox-is-open .video-caption-content{
+  display: block;
+}

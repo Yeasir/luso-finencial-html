@@ -1,0 +1,63 @@
+.agent-find-form{
+  .form-control{
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  label{
+    text-transform: uppercase;
+    color: $primary-color;
+    font-weight: $semi-bold;
+    font-family: $basefont;
+    font-size: 20px;
+  }
+  .btn{
+    border-radius: 5px;
+    padding: 20px 40px;
+    font-size: $font-30;
+    text-transform: uppercase;
+  }
+}
+.submit-btn{
+  width: 100%;
+  max-width: 300px;
+}
+.print-item{
+  color: #7F7F7F;
+  padding: 20px 0;
+  display: inline-block;
+  span{
+    text-decoration: underline;
+  }
+}
+
+.review-box{
+  box-shadow: 1px 1px 5px 0px #7070708a;
+  padding: 30px;
+}
+.print-btn{
+  position: absolute;
+  right: 0;
+  top: 0;
+  border: 1px solid;
+  padding: 4px 15px;
+  border-radius: 10px;
+  svg{
+    width: 20px;
+    height: 20px;
+  }
+}
+.edit-btn{
+  color: #7F7F7F;
+  &:hover{
+    color:$primary-color
+  }
+}
+.details{
+  color: #7F7F7F;
+  p{
+    margin-bottom: 30px;
+  }
+}
+.form-check{
+  font-size: 12px;
+}

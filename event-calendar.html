@@ -1,0 +1,785 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Financial</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="icon" href="img/favicon.png" type="image/x-icon">
+
+
+    <!--All CSS
+    ============================================ -->
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Font-awesome  CSS -->
+    <link rel="stylesheet" href="css/all.css">
+
+    <!-- Slick CSS -->
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/slick.css">
+
+    <link href='css/main.min.css' rel='stylesheet' />
+
+    <!-- fancybox CSS -->
+    <link rel="stylesheet" href="css/jquery.fancybox.css">
+
+    <!-- Main Style CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Modernizer JS -->
+    <script src="js/modernizr-2.8.3.min.js"></script>
+</head>
+
+<body>
+<!--/.header start -->
+<header class="site-header" id="header">
+    <div class="header-top">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 text-lg-left text-md-left text-sm-center">
+                    <a class="custom-logo-link dark-logo" href="index.html">
+                        <img
+                                alt="logo"
+                                class="lazy"
+                                src="img/_blank.png"
+                                data-src="img/logo/logo.png"/>
+                    </a>
+
+                    <a class="custom-logo-link white-logo" href="index.html">
+                        <img
+                                alt="logo"
+                                class="lazy"
+                                src="img/_blank.png"
+                                data-src="img/logo/white-logo.png"/>
+                    </a>
+
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 text-lg-right text-md-right text-sm-center right-nfo">
+                    <span class="d-block text-uppercase">Toll Free</span>
+                    <a href="tel:(877) 522-5857" class="h2">(877) 522-5857</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header-bottom">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="products.html">Service</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="find-an-agent.html">Find An Agent</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="news.html">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact Us</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <div class="form-group has-search">
+                            <span class="fa fa-search form-control-feedback"></span>
+                            <input type="text" class="form-control" placeholder="Search">
+                        </div>
+                    </form>
+                </div>
+            </nav>
+        </div>
+    </div>
+</header>
+<!--/.header end -->
+
+<!-- /#main start -->
+<main id="main" class="site-main">
+
+    <!-- /.about-area start -->
+    <section class="about-area inner-page-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-12 mb-3">
+                    <div class="sidebar">
+
+                        <ul class="nav flex-column tab-list" id="about_tab" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link" href="news.html">Media / News / Press Kit</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="publications.html">Luso-American Publications</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="event-calendar.html">Calendar of Events</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="videos-digital.html">Videos and Digital Media</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="photo-galleries.html">Photo Galleries</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- /.col-md-4 -->
+                <div class="col-lg-9 col-md-8 col-sm-12">
+                    <div class="tab-content" id="event_tab_content">
+                        <header class="text-center">
+                            <h2 class="section-title">Event Calendar</h2>
+                        </header>
+                        <div class="col-lg-7 col-md-10 col-sm-12 text-center m-auto text-gray pb-5">
+                            <p>Calendar of Events for the Portuguese Fraternal Society groups:
+                                LALIS, PCU, SPRSI and LAEF meetings, functions, and other events</p>
+                        </div>
+
+
+                        <div id='calendar'></div>
+
+                        <ul class="list-unstyled">
+                            <li>
+                                <div class="table-responsive mb-3">
+                                    <table class="table calender-list">
+                                        <tbody>
+                                        <tr>
+                                            <td>
+                                                <h2 class="event-heading">Apr</h2>
+                                                <h4 class="evening-date">17</h4>
+                                            </td>
+                                            <td>
+                                                <h4 class="event-title">Confraternização Luso 2021</h4>
+                                                <p class="event-date">9:30 AM to 10:30 AM</p>
+                                            </td>
+                                            <td class="text-right location-nfo">
+                                                <p><strong>Location: </strong>Sacramento, Ca</p>
+                                                <a href="javascript:void(0)" class="more-info-btn">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="33" height="33"
+                                                         viewBox="0 0 33 33">
+                                                        <g id="Group_364" data-name="Group 364"
+                                                           transform="translate(0.347 0.405)">
+                                                            <g id="Right_Arrow_Icon" data-name="Right Arrow Icon"
+                                                               transform="translate(0 0)">
+                                                                <rect id="bound" width="33" height="33"
+                                                                      transform="translate(-0.347 -0.405)" fill="none"/>
+                                                                <path id="Combined_Shape" data-name="Combined Shape"
+                                                                      d="M14,0A14,14,0,1,1,0,14,14,14,0,0,1,14,0Z"
+                                                                      transform="translate(1.653 1.595)"
+                                                                      fill="#001a39"/>
+                                                            </g>
+                                                            <g id="Group_351" data-name="Group 351"
+                                                               transform="translate(7.445 7.929)">
+                                                                <line id="Line_55" data-name="Line 55" x2="16.228"
+                                                                      transform="translate(0 8.114)" fill="none"
+                                                                      stroke="#fff"
+                                                                      stroke-linecap="round" stroke-width="2"/>
+                                                                <line id="Line_56" data-name="Line 56" x1="16.228"
+                                                                      transform="translate(8.114) rotate(90)"
+                                                                      fill="none"
+                                                                      stroke="#fff" stroke-linecap="round"
+                                                                      stroke-width="2"/>
+                                                            </g>
+                                                        </g>
+                                                    </svg>
+                                                    <span>more info</span></a>
+                                            </td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="event-modal-item">
+                                    <div class="row mb-4">
+                                        <div class="col-lg-4 col-md-5 col-sm-12">
+
+                                            <figure class="promo-video event-video">
+                                                <img alt="poster" class="lazy entered loaded" src="img/event-video-poster.png" data-src="img/event-video-poster.png" data-ll-status="loaded">
+                                                <a data-fancybox="" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1" class="video-link">
+                                <span class="play-btn">
+               <svg xmlns="http://www.w3.org/2000/svg" width="119.202" height="99.499" viewBox="0 0 119.202 99.499">
+  <path id="Path_107" data-name="Path 107" d="M1038.5,1305.25v-99.5l119.2,49.75Z" transform="translate(-1038.5 -1205.75)" fill="#fff"></path>
+</svg>
+                                </span>
+                                                </a>
+                                            </figure>
+
+                                        </div>
+                                        <div class="col-lg-8 col-md-7 col-sm-12">
+                                            <h2 class="mb-2">Title More</h2>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu magna
+                                                mauris. Suspendisse ullamcorper accumsan urna, cursus venenatis erat
+                                                elementum at. Sed id neque imperdiet, aliquet justo a, semper sapien.
+                                                Nam molestie elit lectus, sit amet efficitur purus dignissim et. Ut
+                                                gravida efficitur sem.</p>
+                                        </div>
+                                    </div>
+                                    <div class="mapevent"></div>
+                                    <footer class="pt-2 pb-2">
+                                        <div class="row align-items-center">
+                                            <div class="col text-lg-left text-md-left text-sm-center"><a href="javascript:void(0)">Add to Google Calendar</a></div>
+                                            <div class="col text-lg-right text-md-right text-sm-center">
+
+                                                <a href="javascript:void(0)" class="close-btn">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+                                                        <g id="Group_357" data-name="Group 357" transform="translate(0.315 0.297)">
+                                                            <g id="Right_Arrow_Icon" data-name="Right Arrow Icon" transform="translate(-0.369 -0.35)">
+                                                                <rect id="bound" width="26" height="26" transform="translate(0.054 0.054)" fill="none"/>
+                                                                <path id="Combined_Shape" data-name="Combined Shape" d="M11,0A11,11,0,1,1,0,11,11,11,0,0,1,11,0Z" transform="translate(2.054 1.054)" fill="#001a39"/>
+                                                            </g>
+                                                            <g id="Group_351" data-name="Group 351" transform="translate(3.918 12.499) rotate(-45)">
+                                                                <line id="Line_55" data-name="Line 55" x2="13.079" transform="translate(0 6.54)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+                                                                <line id="Line_56" data-name="Line 56" x1="13.079" transform="translate(6.54 0) rotate(90)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+                                                            </g>
+                                                        </g>
+                                                    </svg> Close
+                                                </a>
+
+                                            </div>
+                                        </div>
+                                    </footer>
+
+                                </div>
+
+                            </li>
+                            <li>
+                                <div class="table-responsive mb-3">
+                                    <table class="table calender-list">
+                                        <tbody>
+                                        <tr>
+                                            <td>
+                                                <h2 class="event-heading">Apr</h2>
+                                                <h4 class="evening-date">17</h4>
+                                            </td>
+                                            <td>
+                                                <h4 class="event-title">Confraternização Luso 2021</h4>
+                                                <p class="event-date">9:30 AM to 10:30 AM</p>
+                                            </td>
+                                            <td class="text-right location-nfo">
+                                                <p><strong>Location: </strong>Sacramento, Ca</p>
+                                                <a href="javascript:void(0)" class="more-info-btn">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="33" height="33"
+                                                         viewBox="0 0 33 33">
+                                                        <g id="Group_364" data-name="Group 364"
+                                                           transform="translate(0.347 0.405)">
+                                                            <g id="Right_Arrow_Icon" data-name="Right Arrow Icon"
+                                                               transform="translate(0 0)">
+                                                                <rect id="bound" width="33" height="33"
+                                                                      transform="translate(-0.347 -0.405)" fill="none"/>
+                                                                <path id="Combined_Shape" data-name="Combined Shape"
+                                                                      d="M14,0A14,14,0,1,1,0,14,14,14,0,0,1,14,0Z"
+                                                                      transform="translate(1.653 1.595)"
+                                                                      fill="#001a39"/>
+                                                            </g>
+                                                            <g id="Group_351" data-name="Group 351"
+                                                               transform="translate(7.445 7.929)">
+                                                                <line id="Line_55" data-name="Line 55" x2="16.228"
+                                                                      transform="translate(0 8.114)" fill="none"
+                                                                      stroke="#fff"
+                                                                      stroke-linecap="round" stroke-width="2"/>
+                                                                <line id="Line_56" data-name="Line 56" x1="16.228"
+                                                                      transform="translate(8.114) rotate(90)"
+                                                                      fill="none"
+                                                                      stroke="#fff" stroke-linecap="round"
+                                                                      stroke-width="2"/>
+                                                            </g>
+                                                        </g>
+                                                    </svg>
+                                                    <span>more info</span></a>
+                                            </td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="event-modal-item">
+                                    <div class="row mb-4">
+                                        <div class="col-lg-4 col-md-5 col-sm-12">
+
+                                            <figure class="promo-video event-video">
+                                                <img alt="poster" class="lazy entered loaded" src="img/event-video-poster.png" data-src="img/event-video-poster.png" data-ll-status="loaded">
+                                                <a data-fancybox="" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1" class="video-link">
+                                <span class="play-btn">
+               <svg xmlns="http://www.w3.org/2000/svg" width="119.202" height="99.499" viewBox="0 0 119.202 99.499">
+  <path id="Path_107" data-name="Path 107" d="M1038.5,1305.25v-99.5l119.2,49.75Z" transform="translate(-1038.5 -1205.75)" fill="#fff"></path>
+</svg>
+                                </span>
+                                                </a>
+                                            </figure>
+
+                                        </div>
+                                        <div class="col-lg-8 col-md-7 col-sm-12">
+                                            <h2 class="mb-2">Title More</h2>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu magna
+                                                mauris. Suspendisse ullamcorper accumsan urna, cursus venenatis erat
+                                                elementum at. Sed id neque imperdiet, aliquet justo a, semper sapien.
+                                                Nam molestie elit lectus, sit amet efficitur purus dignissim et. Ut
+                                                gravida efficitur sem.</p>
+                                        </div>
+                                    </div>
+                                    <div class="mapevent"></div>
+                                    <footer class="pt-2 pb-2">
+                                        <div class="row align-items-center">
+                                            <div class="col text-lg-left text-md-left text-sm-center"><a href="javascript:void(0)">Add to Google Calendar</a></div>
+                                            <div class="col text-lg-right text-md-right text-sm-center">
+
+                                                <a href="javascript:void(0)" class="close-btn">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+                                                        <g id="Group_357" data-name="Group 357" transform="translate(0.315 0.297)">
+                                                            <g id="Right_Arrow_Icon" data-name="Right Arrow Icon" transform="translate(-0.369 -0.35)">
+                                                                <rect id="bound" width="26" height="26" transform="translate(0.054 0.054)" fill="none"/>
+                                                                <path id="Combined_Shape" data-name="Combined Shape" d="M11,0A11,11,0,1,1,0,11,11,11,0,0,1,11,0Z" transform="translate(2.054 1.054)" fill="#001a39"/>
+                                                            </g>
+                                                            <g id="Group_351" data-name="Group 351" transform="translate(3.918 12.499) rotate(-45)">
+                                                                <line id="Line_55" data-name="Line 55" x2="13.079" transform="translate(0 6.54)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+                                                                <line id="Line_56" data-name="Line 56" x1="13.079" transform="translate(6.54 0) rotate(90)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+                                                            </g>
+                                                        </g>
+                                                    </svg> Close
+                                                </a>
+
+                                            </div>
+                                        </div>
+                                    </footer>
+
+                                </div>
+
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+                <!-- /.col-md-8 -->
+            </div>
+
+
+        </div>
+    </section>
+    <!-- /.about-area end -->
+
+    <!-- /.service-area start -->
+    <section class="service-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12 text-center">
+                    <a href="#">
+                        <figure class="service-item">
+                            <img
+                                    alt="logo"
+                                    class="lazy"
+                                    src="img/_blank.png"
+                                    data-src="img/service/service-1.png"/>
+                            <figcaption class="service-item--caption bg-primary">
+                                <span class="h3">FIND AN AGENT</span>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12  text-center">
+                    <a href="#">
+                        <figure class="service-item">
+                            <img
+                                    alt="logo"
+                                    class="lazy"
+                                    src="img/_blank.png"
+                                    data-src="img/service/service-2.png"/>
+                            <figcaption class="service-item--caption bg-sky-blue">
+                                <span class="h3">Contact Us</span>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12  text-center">
+                    <a href="">
+                        <figure class="service-item">
+                            <img
+                                    alt="logo"
+                                    class="lazy"
+                                    src="img/_blank.png"
+                                    data-src="img/service/service-3.png"/>
+                            <figcaption class="service-item--caption bg-yellow">
+                                <span class="h3">Make A Payment</span>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12  text-center">
+                    <a href="#">
+                        <figure class="service-item">
+                            <img
+                                    alt="logo"
+                                    class="lazy"
+                                    src="img/_blank.png"
+                                    data-src="img/service/service-4.png"/>
+                            <figcaption class="service-item--caption bg-dark-red">
+                                <span class="h3">Forms</span>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- /.service-area end -->
+
+</main>
+<!-- /#main end -->
+<!-- /.footer start -->
+<footer class="footer-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5 col-md-12 col-sm-12">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12 widget">
+                        <h5 class="mb-4 h3 text-uppercase">Home Office</h5>
+
+                        <address>
+                            <strong>
+                                7080 Donlon Way, Suite 200 <br>
+                                Dublin CA 94568
+                                <br>
+                                <br>
+                                Office: (925) 828-4884 <br>
+                                Fax: (925) 828-4554 <br>
+                                Toll Free: (877) 525-5876
+                            </strong>
+                        </address>
+
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 widget">
+                        <h5 class="mb-4 h3 text-uppercase">East Coast Office</h5>
+
+                        <address>
+                            <strong>
+                                128 Union St, Suite 502 <br>
+                                New Bedford MA 02740
+                                <br>
+                                <br>
+                                Fax: (774) 202-1275 <br>
+                                Toll Free: (800) 378-056
+
+                            </strong>
+                        </address>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-7 col-md-12 col-sm-12">
+                <div class="row">
+                    <div class="col-lg-7 col-md-6 col-sm-12 widget">
+                        <div class="row no-gutters">
+                            <div class="col-lg-6 col-sm-12 p-0 text-lg-left text-md-left text-sm-center">
+                                <a class="custom-logo-link" href="index.html">
+                                    <img alt="logo"
+                                         class="lazy"
+                                         src="img/_blank.png"
+                                         data-src="img/logo/footer-logo.png"/>
+                                </a>
+                                <ul class="list-inline social-link mt-3">
+                                    <li class="list-inline-item"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-6 col-sm-12 p-0">
+                                <ul class="list-unstyled mb-4 footer-menu">
+                                    <li><a href="#">Employment Opportunities </a></li>
+                                    <li><a href="staff.html">Staff </a></li>
+                                    <li><a href="#">Office Location</a></li>
+                                    <li><a href="#">Events Calendar</a></li>
+                                </ul>
+
+                                <ul class="list-unstyled mb-4 footer-menu">
+                                    <li><a href="#">Change of Beneficiary Form </a></li>
+                                    <li><a href="#">Updated my Address/ Phone </a></li>
+                                    <li><a href="#">Office Location</a></li>
+                                    <li><a href="#">Privacy Policy</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-6 col-sm-12 widget">
+                        <h5 class="mb-4 h3 text-uppercase">Stay Updated</h5>
+                        <form>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Name">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" placeholder="Email">
+                            </div>
+                            <div class="text-right">
+                                <input type="submit" class="btn" value="Submit">
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- /.footer end -->
+
+<!-- Back to top button -->
+<a href="javascript:void(0)" id="scroll" style="display: none;"><i class="fa fa-angle-double-up"></i></a>
+<!-- Back to top button -->
+
+<!-- All JS is here
+============================================ -->
+
+<!-- jQuery JS -->
+<script src="js/jquery-3.4.1.min.js"></script>
+
+<!-- Popper JS -->
+<script src="js/popper.min.js"></script>
+
+<!-- Bootstrap JS -->
+<script src="js/bootstrap.min.js"></script>
+
+<!-- fancybox JS -->
+<script src="js/jquery.fancybox.js"></script>
+
+<!-- Slick JS -->
+<script src="js/slick.min.js"></script>
+
+<!-- lazyload JS -->
+<script src="js/lazyload.min.js"></script>
+
+<script src='js/calendar.min.js'></script>
+
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyABqK-5ngi3F1hrEsk7-mCcBPsjHM5_Gj0"></script>
+<script>
+
+    document.addEventListener('DOMContentLoaded', function() {
+        var calendarEl = document.getElementById('calendar');
+        var calendar = new FullCalendar.Calendar(calendarEl, {
+            initialView: 'dayGridMonth'
+        });
+        calendar.render();
+    });
+
+    var mapevent_wrapper =  $('.mapevent');
+    for (var i = 0; i < mapevent_wrapper.length; i++) {
+        var mapevent =  document.getElementsByClassName("mapevent")[i];
+        eventMap(mapevent);
+    }
+
+    function eventMap(mapElement) {
+        var mapOptions = {
+            zoom: 11,
+            disableDefaultUI: true,
+            center: new google.maps.LatLng(40.6700, -73.9400), // New York
+            styles: [
+                {
+                    "featureType": "all",
+                    "elementType": "geometry.fill",
+                    "stylers": [
+                        {
+                            "weight": "2.00"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "all",
+                    "elementType": "geometry.stroke",
+                    "stylers": [
+                        {
+                            "color": "#9c9c9c"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "all",
+                    "elementType": "labels.text",
+                    "stylers": [
+                        {
+                            "visibility": "on"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "landscape",
+                    "elementType": "all",
+                    "stylers": [
+                        {
+                            "color": "#f2f2f2"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "landscape",
+                    "elementType": "geometry.fill",
+                    "stylers": [
+                        {
+                            "color": "#ffffff"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "landscape.man_made",
+                    "elementType": "geometry.fill",
+                    "stylers": [
+                        {
+                            "color": "#ffffff"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "poi",
+                    "elementType": "all",
+                    "stylers": [
+                        {
+                            "visibility": "off"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "road",
+                    "elementType": "all",
+                    "stylers": [
+                        {
+                            "saturation": -100
+                        },
+                        {
+                            "lightness": 45
+                        }
+                    ]
+                },
+                {
+                    "featureType": "road",
+                    "elementType": "geometry.fill",
+                    "stylers": [
+                        {
+                            "color": "#eeeeee"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "road",
+                    "elementType": "labels.text.fill",
+                    "stylers": [
+                        {
+                            "color": "#7b7b7b"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "road",
+                    "elementType": "labels.text.stroke",
+                    "stylers": [
+                        {
+                            "color": "#ffffff"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "road.highway",
+                    "elementType": "all",
+                    "stylers": [
+                        {
+                            "visibility": "simplified"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "road.arterial",
+                    "elementType": "labels.icon",
+                    "stylers": [
+                        {
+                            "visibility": "off"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "transit",
+                    "elementType": "all",
+                    "stylers": [
+                        {
+                            "visibility": "off"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "water",
+                    "elementType": "all",
+                    "stylers": [
+                        {
+                            "color": "#46bcec"
+                        },
+                        {
+                            "visibility": "on"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "water",
+                    "elementType": "geometry.fill",
+                    "stylers": [
+                        {
+                            "color": "#c8d7d4"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "water",
+                    "elementType": "labels.text.fill",
+                    "stylers": [
+                        {
+                            "color": "#070707"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "water",
+                    "elementType": "labels.text.stroke",
+                    "stylers": [
+                        {
+                            "color": "#ffffff"
+                        }
+                    ]
+                }
+            ]
+        };
+
+        // var mapElement = document.getElementById('map');
+        // var mapElement = document.getElementsByClassName("map")[1];
+        var markerIcon = {
+            path: 'M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z',
+            fillColor: '#fc1007',
+            fillOpacity: 0.95,
+            scale: 3,
+            strokeColor: '#fc1007',
+            strokeWeight: 1,
+            anchor: new google.maps.Point(12, 24)
+        };
+
+
+
+        var map = new google.maps.Map(mapElement, mapOptions);
+
+        var marker = new google.maps.Marker({
+            position: new google.maps.LatLng(40.6700, -73.9400),
+            map: map,
+            icon: markerIcon,
+            title: 'Snazzy!'
+        });
+
+    }
+</script>
+
+<!-- Main JS -->
+<script src="js/main.js"></script>
+
+</body>
+
+</html>
